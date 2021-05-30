@@ -4,6 +4,7 @@ from urllib.request import urlopen as uReq
 from bs4 import BeautifulSoup as bs
 from flask_cors import CORS,cross_origin
 import pymongo
+import os
 
 app = Flask(__name__)
 CORS(app)
@@ -21,7 +22,7 @@ def search():
         try:
             #url_mongo = f"mongodb://localhost:27017/"
             url_mongo = "mongodb+srv://oury:touga@oury.p7kgd.mongodb.net/reviews_new?retryWrites=true&w=majority"
-            clien = pymongo.MongoClient(process.env.url_mongo, ssl= True, ssl_cert_reqs='CERT_NONE')
+            clien = pymongo.MongoClient(os.getenv(url_mongo), ssl= True, ssl_cert_reqs='CERT_NONE')
             dataBase = clien["reviews_new"]
             review = dataBase[searchString]
             xl = review.find({})
