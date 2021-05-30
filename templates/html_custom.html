@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Web Scrapping</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='css/style1.css')}}">-->
+    <!--<link rel="stylesheet" type="text/css" href="style.cs-->
+  <style>
+    html{
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100vh;
+    }
+    body{
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100vh;
+      background: url({{ url_for('static', filename='css/rainb.jpg')}});
+      background-size: cover;
+      display: table;
+  }
+  .signin{
+    padding: 3em;
+    font-family: Source Sans Pro;
+    font-weight: lighter;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+  h3{
+    font-family: Source Sans Pro;
+    font-weight: lighter;
+    color: red;
+    font-size: 50px;
+    text-align: center;
+  }
+  input{
+    display:block;
+    width: 320px;
+    height: 50px;
+    background-color: #fff;
+    outline: none;
+    border: 1px solid rgb(0,0,0,0.5);
+    font-family: Source Sans Pro;
+    font-weight: lighter;
+    font-size: 14px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    border-radius: 30px;
+  }
+  button{
+    width: 332px;
+    height: 50px;
+    font-size: 16px;
+    background: #000;
+    font-weight: lighter;
+    color: red;
+    border: 0px;
+    border-radius: 30px;
+  }
+  ::placeholder {
+  color: #000;
+  font-size: 1em;
+}
+  </style>
+</head>
+<body>
+  <div class="signin">
+    <form action="/service" method="POST">
+      <h3>Flipkart Products</h3>
+      <!--<label for="content" style="color: blue">Product name:</label>-->
+      <input type="text" name="content" id="content" style="color: #000000" placeholder="What are you looking for?">
+      <!--<input type="submit" name="Search" style="color: blue">-->
+      <button class="btn">Submit</button>
+    </form>
+  </div>
+</body>
+</html>

@@ -1,0 +1,58 @@
+   html{
+      margin:0;
+      padding:0;
+      width:50%;
+      height:50vh;
+    }
+    body{
+      margin:0;
+      padding:0;
+      width:50%;
+      height:50vh;
+      background:url({{ url_for('static', filename='css/mat.jpg')}})
+      background-size:cover;
+      display:table;
+  }
+  .signin{
+    background: #009879;
+    border: 1px solid rgb(0,0,0,0.3);
+    border-radius: 30px;
+    padding: 3em;
+    font-family: Source Sans Pro;
+    font-weight: lighter;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+  h2{
+    font-family: Source Sans Pro;
+    font-weight: lighter;
+    color: #ffffff;
+    font-size: 50px;
+    text-align: center;
+  }
+  input{
+    display:block;
+    width: 320px;
+    height: 50px;
+    background-color: pink;
+    outline: none;
+    border: 1px solid rgb(0,0,0,0.5);
+    font-family: Source Sans Pro;
+    font-weight: lighter;
+    font-size: 14px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    border-radius: 30px;
+  }
+  button{
+    width: 332px;
+    height: 50px;
+    font-size: 16px;
+    background: #000;
+    font-weight: lighter;
+    color: #ffffff;
+    border: 0px;
+    border-radius: 30px;
+  }
