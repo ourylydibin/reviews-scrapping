@@ -1,5 +1,5 @@
 from flask import Flask, render_template, jsonify, request
-from dotenv import load_dotenv
+from python-dotenv import load_dotenv
 import requests
 from urllib.request import urlopen as uReq
 from bs4 import BeautifulSoup as bs
