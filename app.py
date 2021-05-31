@@ -1,5 +1,5 @@
 from flask import Flask, render_template, jsonify, request
-from python-dotenv import load_dotenv
+from dotenv import load_dotenv
 import requests
 from urllib.request import urlopen as uReq
 from bs4 import BeautifulSoup as bs
@@ -23,8 +23,7 @@ def search():
         try:
             #url_mongo = f"mongodb://localhost:27017/"
             load_dotenv()
-            url_mongo = f'mongodb+srv://oury:{os.environ.get(PASSEWORD)}@oury.p7kgd.mongodb.net/reviews_new?retryWrites=true&w=majority'
-            clien = pymongo.MongoClient(url_mongo, ssl=True, ssl_cert_reqs='CERT_NONE')
+            clien = pymongo.MongoClient(os.getenv('mongo_url'), ssl=True, ssl_cert_reqs='CERT_NONE')
             dataBase = clien["reviews_new"]
             review = dataBase[searchString]
             xl = review.find({})
