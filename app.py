@@ -30,7 +30,7 @@ def search():
                 #return render_template("results_mine.html", result=xl)
             ar=2
             if ar<1:
-                po=4:
+                po=4
             else:
                 flipkart_url = "https://www.flipkart.com/search?q="+searchString
                 uClient = uReq(flipkart_url)
