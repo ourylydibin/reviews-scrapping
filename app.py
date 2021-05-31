@@ -21,16 +21,13 @@ def search():
         searchString = request.form['content'].replace(" ","")
         try:
             #url_mongo = f"mongodb://localhost:27017/"
-            #url_mongo = "mongodb+srv://oury:touga@oury.p7kgd.mongodb.net/reviews_new?retryWrites=true&w=majority"
-            #clien = pymongo.MongoClient(os.environ.get(url_mongo), ssl=True, ssl_cert_reqs='CERT_NONE')
-            #dataBase = clien["reviews_new"]
-            #review = dataBase[searchString]
-            #xl = review.find({})
-            #if xl.count() > 0:
-                #return render_template("results_mine.html", result=xl)
-            ar=2
-            if ar<1:
-                po=4
+            url_mongo = f"mongodb+srv://oury:{os.environ.get(PASSEWORD)}@oury.p7kgd.mongodb.net/reviews_new?retryWrites=true&w=majority"
+            clien = pymongo.MongoClient(url_mongo, ssl=True, ssl_cert_reqs='CERT_NONE')
+            dataBase = clien["reviews_new"]
+            review = dataBase[searchString]
+            xl = review.find({})
+            if xl.count() > 0:
+                return render_template("results_mine.html", result=xl)
             else:
                 flipkart_url = "https://www.flipkart.com/search?q="+searchString
                 uClient = uReq(flipkart_url)
@@ -45,7 +42,7 @@ def search():
                 beauty_page = bs(page.text, "html.parser")  # parsing the product page as HTML
                 comment_section = beauty_page.find_all("div", {"class": "_16PBlm"})
                 reviews = []
-                #able = dataBase[searchString]
+                table = dataBase[searchString]
                 for rating_heading_comment_name in comment_section:
 
                     try:
@@ -69,7 +66,7 @@ def search():
                         name = "No name"
 
                     reviews_summary = {"product": searchString,"rating": rating,"heading": heading,"comment": comment,"name": name}
-                    #x=table.insert_one(reviews_summary)
+                    x=table.insert_one(reviews_summary)
                     reviews.append(reviews_summary)
                 return render_template("results_mine.html", result=reviews)
         except:
