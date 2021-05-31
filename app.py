@@ -28,7 +28,7 @@ def search():
             #xl = review.find({})
             #if xl.count() > 0:
                 #return render_template("results_mine.html", result=xl)
-             ar=2
+            ar=2
             if ar<1:
                 po=4:
             else:
