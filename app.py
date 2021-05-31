@@ -22,12 +22,15 @@ def search():
         try:
             #url_mongo = f"mongodb://localhost:27017/"
             #url_mongo = "mongodb+srv://oury:touga@oury.p7kgd.mongodb.net/reviews_new?retryWrites=true&w=majority"
-            clien = pymongo.MongoClient(os.environ.get(url_mongo), ssl=True, ssl_cert_reqs='CERT_NONE')
-            dataBase = clien["reviews_new"]
-            review = dataBase[searchString]
-            xl = review.find({})
-            if xl.count() > 0:
-                return render_template("results_mine.html", result=xl)
+            #clien = pymongo.MongoClient(os.environ.get(url_mongo), ssl=True, ssl_cert_reqs='CERT_NONE')
+            #dataBase = clien["reviews_new"]
+            #review = dataBase[searchString]
+            #xl = review.find({})
+            #if xl.count() > 0:
+                #return render_template("results_mine.html", result=xl)
+             ar=2
+            if ar<1:
+                po=4:
             else:
                 flipkart_url = "https://www.flipkart.com/search?q="+searchString
                 uClient = uReq(flipkart_url)
