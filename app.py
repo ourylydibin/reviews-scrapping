@@ -70,7 +70,7 @@ def search():
                     reviews.append(reviews_summary)
                 return render_template("results_mine.html", result=reviews)
         except:
-            return os.environ['MONGODB_URI']
+            return str(os.environ['MONGODB_URI'])
     else:
         render_template("html_custom.html")
 if __name__ == "__main__":
