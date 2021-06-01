@@ -23,7 +23,7 @@ def search():
         try:
             #url_mongo = f"mongodb://localhost:27017/"
             #, ssl=True, ssl_cert_reqs='CERT_NONE'
-            clien = pymongo.MongoClient(os.environ['key'])
+            clien = pymongo.MongoClient(os.environ['key'], ssl=True, ssl_cert_reqs='CERT_NONE')
             dataBase = clien["reviews_new"]
             review = dataBase[searchString]
             xl = review.find({})
