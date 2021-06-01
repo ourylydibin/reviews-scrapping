@@ -15,14 +15,14 @@ def hello():
     return render_template("html_custom.html")
 
 
-@app.route("/service", methods=['POST'])
+@app.route("/service", methods=['GET', 'POST'])
 def search():
     if request.method == 'POST':
         searchString = request.form['content'].replace(" ","")
         try:
             #url_mongo = f"mongodb://localhost:27017/"
             #url_mongo = "mongodb+srv://oury:touga@oury.p7kgd.mongodb.net/reviews_new?retryWrites=true&w=majority"
-            clien = pymongo.MongoClient(os.environ['MONGODB_URI'], ssl= False, ssl_cert_reqs='CERT_NONE')
+            clien = pymongo.MongoClient(os.environ['MONGODB_URI'],ssl= True, ssl_cert_reqs='CERT_NONE')
             dataBase = clien["reviews_new"]
             review = dataBase[searchString]
             xl = review.find({})
