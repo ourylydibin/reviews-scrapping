@@ -15,7 +15,7 @@ def hello():
     return render_template("html_custom.html")
 
 
-@app.route("/service", methods=['GET','POST'])
+@app.route("/service", methods=['POST'])
 def search():
     if request.method == 'POST':
         searchString = request.form['content'].replace(" ","")
