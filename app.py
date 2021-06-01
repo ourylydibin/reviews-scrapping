@@ -22,8 +22,8 @@ def search():
         searchString = request.form['content'].replace(" ","")
         try:
             #url_mongo = f"mongodb://localhost:27017/"
-            load_dotenv()
-            clien = pymongo.MongoClient(os.getenv(mongo_url), ssl=True, ssl_cert_reqs='CERT_NONE')
+            #, ssl=True, ssl_cert_reqs='CERT_NONE'
+            clien = pymongo.MongoClient(os.getenv('key'))
             dataBase = clien["reviews_new"]
             review = dataBase[searchString]
             xl = review.find({})
