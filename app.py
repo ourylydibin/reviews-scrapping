@@ -22,7 +22,8 @@ def search():
         try:
             #url_mongo = f"mongodb://localhost:27017/"
             #url_mongo = "mongodb+srv://oury:touga@oury.p7kgd.mongodb.net/reviews_new?retryWrites=true&w=majority"
-            clien = pymongo.MongoClient(os.environ['MONGODB_URI'],ssl= True, ssl_cert_reqs='CERT_NONE')
+            #,ssl= True, ssl_cert_reqs='CERT_NONE'
+            clien = pymongo.MongoClient(os.environ['MONGODB_URI'],ssl= True, ssl_cert_reqs=ssl.CERT_NONE)
             dataBase = clien["reviews_new"]
             review = dataBase[searchString]
             xl = review.find({})
@@ -70,7 +71,7 @@ def search():
                     reviews.append(reviews_summary)
                 return render_template("results_mine.html", result=reviews)
         except:
-            return clien
+            return 
     else:
         render_template("html_custom.html")
 if __name__ == "__main__":
