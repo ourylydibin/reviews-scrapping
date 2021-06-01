@@ -71,7 +71,7 @@ def search():
                     reviews.append(reviews_summary)
                 return render_template("results_mine.html", result=reviews)
         except:
-            return 
+            return "something is wrong"
     else:
         render_template("html_custom.html")
 if __name__ == "__main__":
