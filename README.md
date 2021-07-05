@@ -2,9 +2,9 @@
 In this project, we built a simple application that scraps data from Flipkart website. For any given product in the application interface, it is going to scrap the reviews, the ratings, the headings and the names of the people who gave those informations about the product itself. The data scrapped is dumped into MongoDb Atlas so that whenever a user needs informations about a product the application is going to render the data from Atlas to the user interface . If the data is not available in Atlas the application is going to search in the website.
 
 ## MOTIVATION
-- Farming is one of the major sectors that influences a country’s economic growth. 
+- Web scrapping is one of the most famous strategy to collect data from the internet. 
 
-- In country like India, majority of the population is dependent on agriculture for their livelihood. Many new technologies, such as Machine Learning and Deep Learning, are being implemented into agriculture so that it is easier for farmers to grow and maximize their yield. 
+-  
 
 - In this project, I present a website in which the following applications are implemented; Crop recommendation, Fertilizer recommendation and Plant disease prediction, respectively. 
 
