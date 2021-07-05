@@ -49,9 +49,9 @@ Please read [CONTRIBUTING.md](https://github.com/Gladiator07/Harvestify/blob/mas
 You can use this project for further developing it and adding your work in it. If you use this project, kindly mention the original source of the project and mention the link of this repo in your report.
 
 ## Further Improvements
-This was my first big project so there are lot of things to improve upon
+This was my first web scrapping project so there are things to improve upon
 
-- CSS code is totally messed up :pensive: (some code in file and some inline)
+- CSS style is not in the CSS folder instead I have included the style in the html code. When I included the CSS in the CSS folder, it was not having a effect on the application interface: :cry
 - Frontend can be made more nicer (PS: I suck at frontend development) :cry:	
 - More data can be collected manually via web scrapping to make the system more accurate :monocle_face:	
 - Additional plant images can be collected to make the disease detection part more robust and generalized :face_with_head_bandage:
