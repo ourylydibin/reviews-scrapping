@@ -51,16 +51,10 @@ You can use this project for further developing it and adding your work in it. I
 ## Further Improvements
 This was my first web scrapping project so there are things to improve upon
 
-- CSS style is not in the CSS folder instead I have included the style in the html code. When I included the CSS in the CSS folder, it was not having a effect on the application interface: :cry:
-- Frontend can be made more nicer (PS: I suck at frontend development) :cry:	
-- More data can be collected manually via web scrapping to make the system more accurate :monocle_face:	
-- Additional plant images can be collected to make the disease detection part more robust and generalized :face_with_head_bandage:
-- Modularized code can be written instead of writing in Jupyter Notebooks (will follow this in upcoming projects)
-
-## License
-This project is licensed under [GNU (GENERAL PUBLIC LICENSE)](https://github.com/Gladiator07/Harvestify/blob/master/LICENSE).
-
+- CSS style is not in the CSS folder instead I have included the style in the html code. When I included the CSS in the CSS folder, it was not having a effect on the application interface :cry:
+- Frontend can be made more nicer (I am exploring frontend development) :monocle_face:	
+- 
 ## Contact
 
-#### If you have any doubt or want to contribute feel free to email me or hit me up on [LinkedIn](https://www.linkedin.com/in/atharva-ingle-564430187/)
+#### If you have any doubt or want to contribute feel free to email me or hit me up on [LinkedIn](www.linkedin.com/in/mamadou-oury-ly-724960a9)
 
