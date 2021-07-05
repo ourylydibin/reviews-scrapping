@@ -40,7 +40,7 @@ The data is scrapped from [Flipkart website](https://www.flipkart.com/).
 
    ### Web scrapping
 
-![demo](https://giphy.com/gifs/d8blqgLOz2EHBwxQnz)
+![demo](https://media.giphy.com/media/d8blqgLOz2EHBwxQnz/giphy.gif)
 
 ## Contribute
 Please read [CONTRIBUTING.md](https://github.com/Gladiator07/Harvestify/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
