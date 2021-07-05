@@ -51,7 +51,7 @@ You can use this project for further developing it and adding your work in it. I
 ## Further Improvements
 This was my first web scrapping project so there are things to improve upon
 
-- CSS style is not in the CSS folder instead I have included the style in the html code. When I included the CSS in the CSS folder, it was not having a effect on the application interface: :cry
+- CSS style is not in the CSS folder instead I have included the style in the html code. When I included the CSS in the CSS folder, it was not having a effect on the application interface: :cry:
 - Frontend can be made more nicer (PS: I suck at frontend development) :cry:	
 - More data can be collected manually via web scrapping to make the system more accurate :monocle_face:	
 - Additional plant images can be collected to make the disease detection part more robust and generalized :face_with_head_bandage:
