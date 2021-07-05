@@ -38,19 +38,9 @@ The data is scrapped from [Flipkart website](https://www.flipkart.com/).
   
 ## DEMO
 
-- ### Crop recommendation system
+   ### Web scrapping
 
-![demo](https://media.giphy.com/media/90JbjdAa5nDq3TJh5u/giphy.gif)
-
-- ### Fertilizer suggestion system
-
-![demo](https://media.giphy.com/media/FLftUXMFo8N2bBjAXq/giphy.gif)
-
-
-- ### Disease Detection system
-![demo](https://media.giphy.com/media/NnMwEp2tGZdfnJbyjr/giphy.gif)
-
-
+![demo](https://giphy.com/gifs/d8blqgLOz2EHBwxQnz)
 
 ## Contribute
 Please read [CONTRIBUTING.md](https://github.com/Gladiator07/Harvestify/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
