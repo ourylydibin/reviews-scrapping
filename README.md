@@ -6,16 +6,10 @@ In this project, we built a simple application that scraps data from Flipkart we
 
 -  MongoDb Atlas can allow to store the data gathered in the cloud.
 
-- Building an application using Atlas and data from the internet will help to understand a lot about how to create a scrapper, how to use Atlas and also how the application communicates with Atlas.
+- Building an application using Atlas and data from the internet will help to understand a lot about how to create a scrapper, how to use Atlas and also how the application communicates with Atlas to store and retrieve the data.
 
 ## DATA SOURCE
 - [Flipkart](https://www.flipkart.com/)
- 
-## Notebooks 
-##### I have also published the corresponding code on Kaggle Notebooks.
-- [Crop Recommendation](https://www.kaggle.com/atharvaingle/what-crop-to-grow)
-- [Disease Detection](https://www.kaggle.com/atharvaingle/plant-disease-classification-resnet-99-2)
-
 # Built with
 <code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png"></code>
 <code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"></code>
