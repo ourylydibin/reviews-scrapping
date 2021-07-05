@@ -55,8 +55,8 @@ This was my first web scrapping project so there are things to improve upon
 - The application can be modularized.
 
 ## Upcoming project about web scrapping 
- -My next upcoming project about web scrapping will be image scraping. 
- -All the project will be committed to my Github.
+ - My next upcoming project about web scrapping will be image scraping. 
+ - All the project will be committed to my Github.
 
 
 ## Contact
