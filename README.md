@@ -26,7 +26,7 @@ The data is scrapped from [Flipkart website](https://www.flipkart.com/).
 <code><img height="30" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/1280px-Scikit_learn_logo_small.svg.png"></code>
 
 ## DEPLOYMENT
-#### This website is deployed at [Heroku](https://www.heroku.com/).
+#### This application is deployed at [Heroku](https://www.heroku.com/).
 #### You can access the application [here](https://reviews-scrapping-flipkart.herokuapp.com/).
 #### Note: Making a query may take few secondes to load the data sometimes, as the server may be in hibernate state.
 
