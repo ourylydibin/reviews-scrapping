@@ -1,12 +1,12 @@
 ## Description
-In this project, we built a simple application that scraps data from Flipkart website. For any given product in the application interface, it is going to scrap the reviews, the ratings, the headings and the names of the people who gave those informations about the product itself. The data scrapped is dumped into MongoDb Atlas so that whenever a user needs informations about a product the application is going to render the data from Atlas to the user interface . If the data is not available in Atlas the application is going to search in the website.
+In this project, we built a simple application that scraps data from Flipkart website. For any given product in the application interface, it is going to scrap the reviews, the ratings, the headings and the names of the people who gave those informations about the product itself. The data scrapped is dumped into MongoDb Atlas so that whenever a user needs informations about a product the application is going to render the data from Atlas to the user interface . If the data is not available in Atlas the application is going to search in the website and store it again in Atlas.
 
 ## MOTIVATION
 - Web scrapping is one of the most famous strategy in data collecting from the internet. 
 
--  MongoDb Atlas can allow to store the data gathered in the cloud.
+-  MongoDb Atlas is very simple and important NoSQL database to understand. It stores the data in the cloud.
 
-- Building an application using Atlas and data from the internet will help to understand a lot about how to create a scrapper, how to use Atlas and also how the application communicates with Atlas to store and retrieve the data.
+- Building an application using Atlas and a scrapper will help to understand a lot about how to create web scrapping, how to use Atlas at the back-end and also how the application communicates with Atlas to store and retrieve the data.
 
 ## DATA SOURCE
 - [Flipkart](https://www.flipkart.com/)
