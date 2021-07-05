@@ -1,5 +1,5 @@
 # reviews-scrapping
-In this project, we build a simple application that scraps data from Flipkart website. For any product given in the application interface, it is going to scrap the reviews, the ratings, the headings and the names of the people who gave those informations about the product. The data scrapped is dumped into MongoDb Atlas so that whenever a user needs informations about a product the application is going to render to the user the data from the Atlas. If the data is not available in Atlas the application is going to search in the website.
+In this project, we build a simple application that scraps data from Flipkart website. For any given product in the application interface, it is going to scrap the reviews, the ratings, the headings and the names of the people who gave those informations about the product itself. The data scrapped is dumped into MongoDb Atlas so that whenever a user needs informations about a product the application is going to render the data from the Atlas to the user interface . If the data is not available in Atlas the application is going to search in the website.
 
 
 # HARVESTIFY
