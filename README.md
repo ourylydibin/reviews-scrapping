@@ -2,17 +2,11 @@
 In this project, we built a simple application that scraps data from Flipkart website. For any given product in the application interface, it is going to scrap the reviews, the ratings, the headings and the names of the people who gave those informations about the product itself. The data scrapped is dumped into MongoDb Atlas so that whenever a user needs informations about a product the application is going to render the data from Atlas to the user interface . If the data is not available in Atlas the application is going to search in the website.
 
 ## MOTIVATION
-- Web scrapping is one of the most famous strategy to collect data from the internet. 
+- Web scrapping is one of the most famous strategy in data collecting from the internet. 
 
--  
+-  MongoDb Atlas can allow to store the data gathered in the cloud
 
-- In this project, I present a website in which the following applications are implemented; Crop recommendation, Fertilizer recommendation and Plant disease prediction, respectively. 
-
-    - In the crop recommendation application, the user can provide the soil data from their side and the application will predict which crop should the user grow. 
-    
-    - For the fertilizer recommendation application, the user can input the soil data and the type of crop they are growing, and the application will predict what the soil lacks or has excess of and will recommend improvements. 
-    
-    - For the last application, that is the plant disease prediction application, the user can input an image of a diseased plant leaf, and the application will predict what disease it is and will also give a little background about the disease and suggestions to cure it.
+- Building an application using Atlas and data from the internet will help to understand a lot about how to create a scrapper, how to use Atlas and also how the application communicate with Atlas.
 
 ## DATA SOURCE
 - [Crop recommendation dataset ](https://www.kaggle.com/atharvaingle/crop-recommendation-dataset) (custom built dataset)
