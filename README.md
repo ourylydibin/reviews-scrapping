@@ -31,35 +31,12 @@ In this project, we built a simple application that scraps data from Flipkart we
 #### Note: Making a query may take few secondes to load the data sometimes, as the server may be in hibernate state.
 
 ## How to use
-- Crop Recommendation system ==> enter the corresponding nutrient values of your soil, state and city. Note that, the N-P-K (Nitrogen-Phosphorous-Pottasium) values to be entered should be the ratio between them. Refer [this website](https://www.gardeningknowhow.com/garden-how-to/soil-fertilizers/fertilizer-numbers-npk.htm) for more information.
-Note: When you enter the city name, make sure to enter mostly common city names. Remote cities/towns may not be available in the [Weather API](https://openweathermap.org/) from where humidity, temperature data is fetched.
+- In the application search bar type only products related to mobiles phones, electronics and fornitures as the website activites is selling thoses items.
 
-- Fertilizer suggestion system ==> Enter the nutrient contents of your soil and the crop you want to grow. The algorithm will tell which nutrient the soil has excess of or lacks. Accordingly, it will give suggestions for buying fertilizers.
-
-- Disease Detection System ==> Upload an image of leaf of your plant. The algorithm will tell the crop type and whether it is diseased or healthy. If it is diseased, it will tell you the cause of the disease and suggest you how to prevent/cure the disease accordingly.
-Note that, for now it only supports following crops
-
+- Once you type the product name (e.g. sumsung ), click to submit botton and the informations about the product will get displayed in form of a table.
 <details>
-  <summary>Supported crops
-</summary>
-
-- Apple
-- Blueberry
-- Cherry
-- Corn
-- Grape
-- Pepper
-- Orange
-- Peach
-- Potato
-- Soybean
-- Strawberry
-- Tomato
-- Squash
-- Raspberry
-</details>
-
-
+  
+  
 ## DEMO
 
 - ### Crop recommendation system
