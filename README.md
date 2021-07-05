@@ -4,7 +4,7 @@ In this project, we built a simple application that scraps data from Flipkart we
 ## MOTIVATION
 - Web scrapping is one of the most famous strategy in data collecting from the internet. 
 
--  MongoDb Atlas is very simple and important NoSQL database to understand. It stores the data in the cloud.
+-  MongoDb Atlas is a very simple and important NoSQL database to understand. It stores the data in the cloud.
 
 - Building an application using Atlas and a scrapper will help to understand a lot things abou  web scrapping, how to use Atlas at the back-end and also how a python application store and retrieve the data using MongoDb Atlas.
 
