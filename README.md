@@ -1,11 +1,5 @@
-# reviews-scrapping
+## Description
 In this project, we build a simple application that scraps data from Flipkart website. For any given product in the application interface, it is going to scrap the reviews, the ratings, the headings and the names of the people who gave those informations about the product itself. The data scrapped is dumped into MongoDb Atlas so that whenever a user needs informations about a product the application is going to render the data from the Atlas to the user interface . If the data is not available in Atlas the application is going to search in the website.
-
-
-# HARVESTIFY
-#### A simple machine learning based website which recommends best crop to grow, fertilizers to use and the diseases caught by your crops
-
-#### This project is featured on [Krish Naik's](https://www.youtube.com/channel/UCNU_lfiiWBdtULKOw6X0Dig) YouTube Channel ==> Check it out [here](https://www.youtube.com/watch?v=zJcSod-L-Ps)
 
 ## MOTIVATION
 - Farming is one of the major sectors that influences a country’s economic growth. 
