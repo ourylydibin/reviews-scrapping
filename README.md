@@ -26,7 +26,7 @@ The data is scrapped from [Flipkart website](https://www.flipkart.com/).
 <code><img height="30" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/1280px-Scikit_learn_logo_small.svg.png"></code>
 
 ## DEPLOYMENT
-#### This application is deployed at [Heroku](https://www.heroku.com/).
+#### This application is deployed to [Heroku](https://www.heroku.com/).
 #### You can access the application [here](https://reviews-scrapping-flipkart.herokuapp.com/).
 #### Note: Making a query may take few secondes to load the data sometimes, as the server may be in hibernate state.
 
@@ -38,7 +38,7 @@ The data is scrapped from [Flipkart website](https://www.flipkart.com/).
   
 ## DEMO
 
-   ### Web scrapping
+   ### Reviews Scrapping
 
 ![demo](https://media.giphy.com/media/d8blqgLOz2EHBwxQnz/giphy.gif)
 
@@ -51,6 +51,12 @@ This was my first web scrapping project so there are things to improve upon
 
 - CSS style is not in the CSS folder instead I have included the style in the html code. When I included the CSS in the CSS folder, it was not having a effect on the application interface :cry:
 - Frontend can be made more nicer (I am exploring frontend development) :monocle_face:	
+- Data is only scrapped from the displayed on Flipkart website. One cool **contribution is to scrap the data even from hidden pages**.
+- The application can be more modularized.
+
+## Upcoming project about web scrapping 
+ -My next upcoming project about web scrapping will be image scraping. 
+ -All the project will be committed to my Github.
 
 
 ## Contact
