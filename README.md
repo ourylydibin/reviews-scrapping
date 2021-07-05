@@ -52,7 +52,7 @@ This was my first web scrapping project so there are things to improve upon
 - CSS style is not in the CSS folder instead I have included the style in the html code. When I included the CSS in the CSS folder, it was not having a effect on the application interface :cry:
 - Frontend can be made more nicer (I am exploring frontend development) :monocle_face:	
 - Data is only scrapped from the displayed on Flipkart website. One cool **contribution is to scrap the data even from hidden pages**.
-- The application can be more modularized.
+- The application can be modularized.
 
 ## Upcoming project about web scrapping 
  -My next upcoming project about web scrapping will be image scraping. 
