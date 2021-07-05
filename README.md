@@ -6,10 +6,10 @@ In this project, we built a simple application that scraps data from Flipkart we
 
 -  MongoDb Atlas is very simple and important NoSQL database to understand. It stores the data in the cloud.
 
-- Building an application using Atlas and a scrapper will help to understand a lot about how to create web scrapping, how to use Atlas at the back-end and also how the application communicates with Atlas to store and retrieve the data.
+- Building an application using Atlas and a scrapper will help to understand a lot things abou  web scrapping, how to use Atlas at the back-end and also how a python application store and retrieve the data using MongoDb Atlas.
 
 ## DATA SOURCE
-- [Flipkart](https://www.flipkart.com/)
+- The data is scrapped from the [Flipkart](https://www.flipkart.com/).
 # Built with
 <code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png"></code>
 <code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"></code>
