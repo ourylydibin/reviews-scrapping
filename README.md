@@ -9,7 +9,7 @@ In this project, we built a simple application that scraps data from Flipkart we
 - Building an application using Atlas and a scrapper will help to understand a lot things abou  web scrapping, how to use Atlas at the back-end and also how a python application store and retrieve the data using MongoDb Atlas.
 
 ## DATA SOURCE
-- The data is scrapped from the [Flipkart](https://www.flipkart.com/).
+- The data is scrapped from [Flipkart website](https://www.flipkart.com/).
 # Built with
 <code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png"></code>
 <code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"></code>
@@ -17,7 +17,7 @@ In this project, we built a simple application that scraps data from Flipkart we
 <code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"></code>
 <code><img height="30" src="https://symbols.getvecta.com/stencil_80/56_flask.3a79b5a056.jpg"></code>
 <code><img height="30" src="https://cdn.iconscout.com/icon/free/png-256/heroku-225989.png"></code>
-<code><img height="30" src="https://github.com/ourylydibin/reviews-scrapping/blob/main/static/css/atlas.jpg"></code>
+<code><img height="40" src="https://github.com/ourylydibin/reviews-scrapping/blob/main/static/css/atlas.jpg"></code>
 
 
 <code><img height="30" src="https://raw.githubusercontent.com/numpy/numpy/7e7f4adab814b223f7f917369a72757cd28b10cb/branding/icons/numpylogo.svg"></code>
