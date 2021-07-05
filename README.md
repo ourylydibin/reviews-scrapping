@@ -4,15 +4,13 @@ In this project, we built a simple application that scraps data from Flipkart we
 ## MOTIVATION
 - Web scrapping is one of the most famous strategy in data collecting from the internet. 
 
--  MongoDb Atlas can allow to store the data gathered in the cloud
+-  MongoDb Atlas can allow to store the data gathered in the cloud.
 
-- Building an application using Atlas and data from the internet will help to understand a lot about how to create a scrapper, how to use Atlas and also how the application communicate with Atlas.
+- Building an application using Atlas and data from the internet will help to understand a lot about how to create a scrapper, how to use Atlas and also how the application communicates with Atlas.
 
 ## DATA SOURCE
-- [Crop recommendation dataset ](https://www.kaggle.com/atharvaingle/crop-recommendation-dataset) (custom built dataset)
-- [Fertilizer suggestion dataset](https://github.com/Gladiator07/Harvestify/blob/master/Data-processed/fertilizer.csv) (custom built dataset)
-- [Disease detection dataset](https://www.kaggle.com/vipoooool/new-plant-diseases-dataset)
-
+- [Flipkart](https://www.flipkart.com/)
+ 
 ## Notebooks 
 ##### I have also published the corresponding code on Kaggle Notebooks.
 - [Crop Recommendation](https://www.kaggle.com/atharvaingle/what-crop-to-grow)
