@@ -61,5 +61,5 @@ This was my first web scrapping project so there are things to improve upon
 
 ## Contact
 
-#### If you have any doubt or want to contribute feel free to email me or hit me up on [LinkedIn](https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile)
+#### If you have any doubt or want to contribute feel free to email me or hit me up on [LinkedIn](https://www.linkedin.com/in/m-oury-ly-724960a9/)
 
