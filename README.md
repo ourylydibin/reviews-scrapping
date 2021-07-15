@@ -40,7 +40,7 @@ The data is scrapped from [Flipkart website](https://www.flipkart.com/).
 
    ### Reviews Scrapping
 
-![demo](https://media.giphy.com/media/d8blqgLOz2EHBwxQnz/giphy.gif)
+![demo](https://media.giphy.com/media/aTF7PIvdsmXHl1pxye/giphy.gif)
 
 
 ## Usage
