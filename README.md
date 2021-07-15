@@ -1,16 +1,16 @@
 ### DESCRIPTION
 In this project, we built a simple application to scrap data from Flipkart website. For any given product in the application interface, it is going to scrap the reviews, the ratings, the headings and the names of the people who gave those informations about the product itself. The data scrapped is dumped into MongoDb Atlas so that whenever a user needs informations about a product the application is going to render the data from Atlas to the user interface . If the data is not available in Atlas the application is going to search in the website and stores it again in Atlas.
 
-## MOTIVATION
+## MOTIVATION 💪
 - Web scrapping is one of the most famous strategy in data collection from the internet. 
 
 -  MongoDb Atlas is a very simple and important NoSQL database to understand. It stores the data in the cloud.
 
 - Building an application using Atlas and a scrapper will help to understand a lot things about  web scrapping, how to use Atlas at the back-end and also how a python application stores and retrieves the data using MongoDb Atlas.
 
-## DATA SOURCE
+## DATA SOURCE 📊
 The data is scrapped from [Flipkart website](https://www.flipkart.com/).
-# Built with
+# Built with 🛠️
 <code><img height="50" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png"></code>
 <code><img height="50" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"></code>
 <code><img height="50" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"></code>
@@ -25,7 +25,7 @@ The data is scrapped from [Flipkart website](https://www.flipkart.com/).
 <code><img height="30" src="https://matplotlib.org/_static/logo2.svg"></code>
 <code><img height="30" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/1280px-Scikit_learn_logo_small.svg.png"></code>
 
-## DEPLOYMENT
+## DEPLOYMENT 🚀
 #### This application is deployed to [Heroku](https://www.heroku.com/).
 #### You can access the application [here](https://reviews-scrapping-flipkart.herokuapp.com/).
 #### Note: Making a query may take few secondes to load the data sometimes, as the server may be in hibernate state.
@@ -46,7 +46,7 @@ The data is scrapped from [Flipkart website](https://www.flipkart.com/).
 ## Usage
 You can use this project for further developing it and adding your work in it. If you use this project, kindly mention the original source of the project and mention the link of this repo in your report.
 
-## Further Improvements
+## Further Improvements 📈
 This was my first web scrapping project so there are things to improve upon
 
 - CSS style is not in the CSS folder instead I have included the style in the html code. When I included the CSS in the CSS folder, it was not having effect on the application interface :cry:
@@ -59,7 +59,7 @@ This was my first web scrapping project so there are things to improve upon
  - All the project will be committed to my Github.
 
 
-## Contact
+## Contact 📞
 
 #### If you have any doubt or want to contribute feel free to email me or hit me up on [LinkedIn](https://www.linkedin.com/in/m-oury-ly-724960a9/)
 
