@@ -33,7 +33,7 @@ The data is scrapped from [Flipkart website](https://www.flipkart.com/).
 ## How to use
 - In the application search bar type only products related to mobiles phones, electronics and fornitures as the website is selling those items.
 
-- Once you type the product name (e.g. sumsung ), click to submit botton and the informations about the product will get displayed in form of a table.
+- Once you type the product name (e.g. sumsung ), click on submit botton and the informations about the product will get displayed in form of a table.
   
   
 ## DEMO
